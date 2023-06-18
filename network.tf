@@ -3,4 +3,5 @@ module "network" {
   version = "5.3.0"
   # insert required variables here
   resource_group_name = "${var.prefix}-workshop"
+  use_for_each = true
 }
